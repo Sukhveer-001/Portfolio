@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Sukhveer Singh',
-  role: 'Front End Engineer',
+  role: 'Full-stack Developer',
   description:
-    'Hi, I am Sukhveer Singh, a passionate Frontend Developer with a knack for creating responsive and dynamic web applications. I have hands-on experience with HTML, CSS, JavaScript, ReactJS, and Tailwind CSS, along with a growing understanding of backend technologies.',
+    'I craft web experiences that are both functional and visually engaging. Skilled in React, Node.js, Express, and MongoDB, I build projects from concept to deployment, focusing on clean code, performance, and scalability. Driven by curiosity and a love for problem-solving, I am constantly learning and pushing the boundaries of whats possible in web development.',
 
   resume: '/resume.pdf', // if no resume, the button won't show up
   social: {
@@ -19,13 +19,21 @@ const about = {
 }
 const projects = [
   // Add, modify, or remove projects
+  // {
+  //   name: 'HireHub',
+  //   description:
+  //     'A fully functional placement portal for students and administrators, with features such as user authentication, placement listings, and application tracking.',
+  //   stack: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js','Express.js', 'MongoDB'],
+  //   sourceCode: 'https://github.com/Sukhveer-001/HireHub',
+  //   livePreview: 'https://hirehub.example.com', // Add live link if deployed
+  // },
   {
-    name: 'HireHub',
+    name: 'CRM Saas Landing page',
     description:
-      'A fully functional placement portal for students and administrators, with features such as user authentication, placement listings, and application tracking.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js','Express.js', 'MongoDB'],
-    sourceCode: 'https://github.com/Sukhveer-001/HireHub',
-    livePreview: 'https://hirehub.example.com', // Add live link if deployed
+      'Responsive and modern CRM SaaS landing page built with React and Tailwind CSS, featuring hero, features, pricing, and call-to-action sections. Designed for portfolio and frontend practice.',
+    stack: ['React', 'TailwindCSS', 'JavaScript'],
+    sourceCode: 'https://github.com/Sukhveer-001/crm-saas-landing-page',
+    livePreview: 'https://crm-saas-landing-page.netlify.app/',
   },
   {
     name: 'Fit Flow',
@@ -43,6 +51,14 @@ const projects = [
     sourceCode: 'https://github.com/Sukhveer-001/To-Do-App',
     livePreview: 'https://react-cool-to-do-app.netlify.app',
   },
+  {
+    name: 'Lead management system',
+    description:
+      'A modern, responsive Lead Management System built with React and Tailwind CSS. This application helps businesses efficiently track and manage their sales leads with an intuitive interface and seamless user experience.',
+    stack: ['React', 'TailwindCSS', 'JavaScript'],
+    sourceCode: 'https://github.com/Sukhveer-001/Lead_tracker',
+    livePreview: 'https://lead-tracker-react.netlify.app/',
+  },
   // {
   //   name: 'Portfolio Website',
   //   description:
@@ -52,12 +68,12 @@ const projects = [
   //   livePreview: 'https://sukhveer-001.github.io/portfolio', // Add link if deployed
   // },
   // {
-    // name: 'Placement Cell Admin Panel',
-    // description:
-      // 'An admin panel for managing student placements, applications, and recruiter listings with advanced filtering and reporting features.',
-    // stack: ['React', 'Bootstrap', 'JavaScript', 'PHP', 'MySQL'],
-    // sourceCode: 'https://github.com/Sukhveer-001/placement-admin',
-    // livePreview: 'https://admin.hirehub.com', // Add link if deployed
+  // name: 'Placement Cell Admin Panel',
+  // description:
+  // 'An admin panel for managing student placements, applications, and recruiter listings with advanced filtering and reporting features.',
+  // stack: ['React', 'Bootstrap', 'JavaScript', 'PHP', 'MySQL'],
+  // sourceCode: 'https://github.com/Sukhveer-001/placement-admin',
+  // livePreview: 'https://admin.hirehub.com', // Add link if deployed
   // },
 ]
 
@@ -68,8 +84,8 @@ const skills = [
   'JavaScript',
   'React',
   'Tailwind CSS',
-  'Bootstrap', // ✅ Keep this since you can learn quickly if needed
-  'Material UI', // ✅ Easy to learn for enterprise-level UIs
+  // 'Bootstrap', // ✅ Keep this since you can learn quickly if needed
+  // 'Material UI', // ✅ Easy to learn for enterprise-level UIs
 
   // Version Control & Deployment
   'Git',
@@ -84,9 +100,9 @@ const skills = [
   'REST APIs', // ✅ Essential to connect frontend with backend
 
   // Additional Programming Skills
-  'C Programming',
-  'Java',
-  'C++',
+  // 'C Programming',
+  // 'Java',
+  // 'C++',
 
   // Computer Science Fundamentals
   'Computer Networks',
@@ -94,10 +110,10 @@ const skills = [
   'Software Engineering',
 
   // Bonus (High Demand, Quick Learning Potential)
-  'Next.js', // ✅ Boosts SEO + better performance for React apps
-  'TypeScript', // ✅ Slightly advanced, but increases job offers
-  'Firebase', // ✅ For quick backend & authentication in small projects
-  'GraphQL', // ✅ Emerging API query language, lightweight, and powerful
+  // 'Next.js', // ✅ Boosts SEO + better performance for React apps
+  // 'TypeScript', // ✅ Slightly advanced, but increases job offers
+  // 'Firebase', // ✅ For quick backend & authentication in small projects
+  // 'GraphQL', // ✅ Emerging API query language, lightweight, and powerful
 ]
 
 const contact = {

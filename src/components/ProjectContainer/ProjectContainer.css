@@ -22,10 +22,19 @@
 }
 
 .project__stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
+  margin: 0.5rem; /* consistent with font-size units */
+  font-weight: 500; /* keeps medium weight */
+  font-size: clamp(0.75rem, 1vw, 0.9rem); /* responsive font scaling */
   color: var(--clr-fg-alt);
+  line-height: 1.4; /* improves readability */
+  display: inline-block; /* better spacing when items wrap */
+  padding: 0.2em 0.4em; /* optional: subtle padding for better touch/click area */
+  border-radius: 0.25rem; /* optional: soft rounded corners if needed */
+  transition: color 0.2s ease; /* subtle hover effect */
+}
+
+.project__stack-item:hover {
+  color: var(--clr-accent); /* optional hover highlight */
 }
 
 .project .link--icon {
