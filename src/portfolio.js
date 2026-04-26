@@ -28,6 +28,23 @@ const projects = [
   //   livePreview: 'https://hirehub.example.com', // Add live link if deployed
   // },
   {
+    name: 'LinkNest',
+    description:
+      'A full-stack link management platform inspired by Linktree, built with Next.js and MongoDB. It features secure authentication using NextAuth, protected routes with middleware, username-based public profiles, and a responsive UI. Designed with production-grade session handling, dynamic routing, and seamless deployment on Vercel.',
+    stack: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'TailwindCSS',
+      'NextAuth',
+      'MongoDB',
+      'Mongoose',
+      'Vercel',
+    ],
+    sourceCode: 'https://github.com/Sukhveer-001/LINKNEST',
+    livePreview: 'https://linknest-neon.vercel.app/',
+  },
+  {
     name: 'CRM Saas Landing page',
     description:
       'Responsive and modern CRM SaaS landing page built with React and Tailwind CSS, featuring hero, features, pricing, and call-to-action sections. Designed for portfolio and frontend practice.',
